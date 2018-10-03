@@ -1,0 +1,25 @@
+1. When will we use F1-score instead of precision(accuracy)?
+
+當我們要同時考量precision與recall時，F1-score比較有代表性
+
+
+2. Why don’t we use binary classification function as the activation function in neural networks?
+
+計算cost function的關係，所以激勵函數需要可微分
+
+
+3. What is the bias and variance of a machine learning algorithm?
+bias是預測結果與真實結果的差距
+variance是預測結果之間的相對差距
+
+4. When training a single tree in random forest, we don’t prune the tree, why?
+剪枝是為了避免過擬合，但是隨機森林的隨機挑選樣本與特徵已經達到避免過擬合的效果
+
+
+5. What is one-hot encoding?
+當我們有名目上的分類，每個類別之間沒有大小或數量的關係，可以做one-hot encoding，
+但是要避免展開類別太多，產生過擬合現象
+
+
+6. How to prevent overfitting in neural networks? (write down anything you know)
+使用更多訓練資料、使用較少的特徵、增大懲罰係數
